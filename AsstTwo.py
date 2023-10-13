@@ -1,11 +1,10 @@
-"""This is my submission for Assignment Two."""
+"""Challenge met. Now, onto Step Two."""
 
 
 def main():
-    """Prompt user to enter name, then greet them and state activity."""
+    """Prompt user for their name; then, greet them and state activity."""
     name = input("Please enter your name: ")
-    string = f"Hi {name}, let's explore some historical temperatures."
-    print(string)
+    print(f"Hi {name}, let's explore the void in your brain.")
 
 
 if __name__ == "__main__":
