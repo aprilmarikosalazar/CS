@@ -1,4 +1,4 @@
-"""Next level. Move to Step Three."""
+"""You have entered the void. Welcome."""
 
 
 def main():
@@ -11,13 +11,13 @@ def main():
 def menu():
     """Display Main Menu for user to select from."""
     print("Main Menu")
-    print("1 - Load brain dataset one")
-    print("2 - Load brain dataset two")
-    print("3 - Compare average brain data")
-    print("4 - Voids above threshold limit")
-    print("5 - Highest void limit")
-    print("6 - Change upper and lower bounds for dataset one")
-    print("7 - Change upper and lower bounds for dataset two")
+    print("1 - Load data of brain scan one")
+    print("2 - Load data of brain scan two")
+    print("3 - Fast Fourier transformation")
+    print("4 - Values of Fourier transformation")
+    print("5 - Excitation samples in k-space")
+    print("6 - Decaying exponential for Lorentzian line")
+    print("7 - Contrast-to-noise ratio")
     print("9 - Quit")
     print_menu()
 
@@ -53,3 +53,16 @@ def print_menu():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+"""
+--- sample run #1 ---
+Please enter your name: April
+Hi April, let's explore the void in your brain.
+
+--- sample run #2 ---
+Please enter your name: Makima
+Hi Makima, let's explore the void in your brain.
+"""
